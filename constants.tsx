@@ -2,8 +2,8 @@ import { Song, Mood } from './types';
 
 export const ASSETS = {
   // Using the image saved in the root folder as requested
-  CHIBI_MAIN: '1.jpg',
-  CHIBI1_MAIN: '2.jpg'
+  CHIBI_MAIN: '/1.jpg',
+  CHIBI1_MAIN: '/2.jpg'
 };
 
 export const COLORS = {
