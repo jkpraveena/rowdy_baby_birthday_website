@@ -1,0 +1,7 @@
+{
+  "name": "The Resonance of a Year",
+  "description": "A poetic listening room created as a birthday tribute for a singer, focusing on emotion, silence, and the transition into a new chapter.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
