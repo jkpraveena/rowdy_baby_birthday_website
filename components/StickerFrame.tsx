@@ -32,7 +32,7 @@ const StickerFrame: React.FC<StickerFrameProps> = ({ label, className = "", chil
           <div className="flex flex-col items-center gap-2 opacity-30">
             <Sparkles size={24} className="text-rose-300" />
             <span className="text-[8px] tracking-widest uppercase font-black text-rose-400 text-center">
-              {src && imageError ? "Image not\nfound" : "Place Sticker\nHere"}
+              {src && imageError ? "Harshitha 💐" : "Place Sticker\nHere"}
             </span>
           </div>
         )}
