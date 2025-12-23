@@ -250,7 +250,7 @@ const App: React.FC = () => {
         <div className="absolute bottom-[-5%] right-[-5%] w-[30%] h-[30%] bg-purple-200/20 blur-[100px] rounded-full"></div>
         
         {/* --- STICKER: BIRTHDAY CHIBI --- */}
-        <div className="fixed top-48 left-[5%] z-20">
+        <div className="fixed top-48 left-[5%] z-[9999]">
            <StickerFrame 
              label="Birthday Chibi" 
              rotation="-rotate-6"
@@ -259,7 +259,7 @@ const App: React.FC = () => {
         </div>
         
         {/* --- STICKER: MAGIC --- */}
-        <div className="fixed bottom-40 right-[5%] z-20">
+        <div className="fixed bottom-40 right-[5%] z-[9999]">
            <StickerFrame 
              label="Magic" 
              rotation="rotate-12"
