@@ -54,12 +54,7 @@ const SongReveal: React.FC<SongRevealProps> = ({ song, align = 'left' }) => {
            </StickerFrame>
         </div>
         <div className="absolute -bottom-20 -left-16 md:-left-20 z-20 pointer-events-none">
-          <StickerFrame
-  label="Cute"
-  rotation="-rotate-6"
-  src={ASSETS.CUTE_STICKER}
-  className="scale-75 md:scale-90 opacity-90 group-hover:opacity-100 transition-opacity"
-/>
+          <StickerFrame label="Cute" rotation="-rotate-6" className="scale-75 md:scale-90 opacity-90 group-hover:opacity-100 transition-opacity" ><span className="text-4xl">🕶️</span></StickerFrame>
         </div>
 
         {/* Decorative elements behind player */}
