@@ -310,9 +310,12 @@ const App: React.FC = () => {
           <div className="flex-1 flex justify-center z-10 relative">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute -top-12 -left-12 z-30">
-                 <StickerFrame label="Sing!" rotation="-rotate-12" className="scale-110 shadow-lg">
-                    <span className="text-4xl">🎤</span>
-                 </StickerFrame>
+                 <StickerFrame
+  label="Sing!"
+  rotation="-rotate-12"
+  src={ASSETS.MIC_ICON}
+  className="scale-110 shadow-lg"
+/>
               </div>
 
               <div className="absolute inset-0 bg-white rounded-3xl shadow-2xl rotate-3 flex flex-col items-center justify-center p-8 border border-slate-100 transform hover:rotate-0 transition-transform duration-700 group">
