@@ -16,16 +16,45 @@
       rel="stylesheet"
     />
 
-    <style>
+   <style>
       body {
-        font-family: "Inter", sans-serif;
+        font-family: 'Inter', sans-serif;
         background-color: #fcfaf7;
         overflow-x: hidden;
       }
       .font-serif {
-        font-family: "Bodoni Moda", serif;
+        font-family: 'Bodoni Moda', serif;
+      }
+      ::-webkit-scrollbar {
+        width: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #dcd6f7;
+        border-radius: 10px;
+      }
+      .fade-mask {
+        mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
       }
     </style>
+    <style>
+  @keyframes candle-hint {
+    from {
+      opacity: 0;
+      transform: translate(-50%, 12px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  .animate-candle-hint {
+    animation: candle-hint 0.4s ease-out;
+  }
+</style>
   </head>
 
   <body>
